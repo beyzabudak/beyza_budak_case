@@ -221,11 +221,6 @@ mvn test
 mvn test -Dtest=CareersTest
 ```
 
-### **Run with TestNG XML**
-```bash
-mvn test -DsuiteXmlFile=testng.xml
-```
-
 ### **Generate Reports**
 After test execution, find reports at:
 ```
