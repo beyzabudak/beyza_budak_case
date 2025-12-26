@@ -8,13 +8,10 @@ public class TestConstants {
 
     //URL's
     public static final String URL_HOMEPAGE = "https://insiderone.com/";
-    public static final String URL_CAREERS = "https://useinsider.com/careers/quality-assurance/";
+    public static final String URL_CAREERS_QA = "https://insiderone.com/careers/quality-assurance/";
 
     //Timeout
     public static final Duration DEFAULT_WAIT = Duration.ofSeconds(15);
-
-    //BasePage
-    public static final By CookieAcceptButton = By.id("wt-cli-accept-all-btn");
 
     //HomePage
     public static final By HERO = By.cssSelector("section.homepage-hero");
@@ -28,6 +25,7 @@ public class TestConstants {
     public static final By INTEGRATIONS = By.cssSelector("section.homepage-integrations");
     public static final By RESOURCES = By.cssSelector("section.homepage-resources");
     public static final By CTA = By.cssSelector("section.homepage-call-to-action");
+    public static final By CookieAcceptButton = By.id("wt-cli-accept-all-btn");
 
     //QAJobsPage
     public static final By JOB_LIST_ITEM = By.cssSelector(".position-list-item");
